@@ -59,6 +59,7 @@ includeVendorSystem("kafka", "schemaregistry")
 includeCommon("google-analytics-core", "google/analytics-core")
 includeVendorSystem("google", "analytics-ua")
 includeVendorSystem("google", "analytics-ga4")
+includeVendorSystem("google", "authentication")
 
 fun includeSystem(system: String, vararg extraModules: String) {
     val projectName = "http4k-connect-$system"
